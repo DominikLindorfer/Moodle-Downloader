@@ -9,3 +9,8 @@ Suchen des Playlist-Files mit der Endung '.m3u8' welches meist den Namen 'playli
 Dann das Video starten und das Chunk-File sollte geladen werden. Rechtsklick darauf und Copy-Url. Dann das .sh Script 'MoodleDownload.sh' starten mit
 
     ./MoodleDownload.sh 'url' 'Outputname'
+
+
+![alt text](https://user-images.githubusercontent.com/21077042/55534879-ca9f0800-56b5-11e9-9368-5c57d7b5eb67.png)
+
+## Requirements: ffmpeg, firefox / chrome
