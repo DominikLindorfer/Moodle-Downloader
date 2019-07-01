@@ -4,9 +4,10 @@
 Ansurfen der Moodle-Seite mit dem Video.
 
 ## Step 2
-Suchen des Playlist-Files mit der Endung '.m3u8' welches meist den Namen 'playlist' oder 'chunklist' hat. Dazu: Ctrl + Shift + i für den Inspector Modus in Firefox, dann auf den Reiter Network und im Suche-Feld die Endung 'm3u8' eingeben.
+Mit Ctrl + Shift + i in den Inspector Modus im Firefox / Chrome wechseln und auf im Reiter Network im Suche-Feld die Endung 'm3u8' eingeben. Damit sollen nach dem Starten des Videos die Playlist-Files mit der Endung '.m3u8' bzw. den Namen 'playlist' oder 'chunklist' gefunden werden.
 
-Dann das Video starten und das Chunk-File sollte geladen werden. Rechtsklick darauf und Copy-Url. Dann das .sh Script 'MoodleDownload.sh' starten mit
+## Step 3
+Video starten damit die Playlist-Files geladen werden und den Url mit Rechtsklick und Copy-Url kopieren. Danach das .sh Script 'MoodleDownload.sh' starten mit
 
     ./MoodleDownload.sh 'url' 'Outputname'
 
